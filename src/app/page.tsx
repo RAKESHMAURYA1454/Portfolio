@@ -12,7 +12,7 @@ export default function Home() {
       <span className="text-4xl">👋</span>
       <Heading className="font-black">Hello there! I&apos; Rakesh Maurya </Heading>
       <Paragraph className="max-w-xl mt-4">
-        I am final year computer science student 
+        I am final year computer science student  hello this is new
       </Paragraph>
       <Heading
         as="h2"
