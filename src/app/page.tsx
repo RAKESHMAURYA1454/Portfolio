@@ -11,8 +11,11 @@ export default function Home() {
     <Container>
       <span className="text-4xl">👋</span>
       <Heading className="font-black">Hello there! I&apos; Rakesh Maurya </Heading>
-      <Paragraph className="max-w-xl mt-4">
-        I am final year computer science student  hello this is new
+      <Paragraph className="max-w-xl mt-4 font-semibold">
+        Final Year Computer Science Student | Full Stack Developer (React | Tailwind | MongoDB)
+      </Paragraph>
+      <Paragraph className="mt-2">
+        I’m a Full Stack Developer and final-year Computer Science student, with a strong interest in building user-friendly and efficient web applications. My primary tech stack includes React, Tailwind CSS, and MongoDB. This is backed by a solid academic foundation in Computer Networks, Operating Systems, and DBMS, which I use to build robust and scalable solutions.
       </Paragraph>
       <Heading
         as="h2"
@@ -20,7 +23,7 @@ export default function Home() {
       >
         What I&apos;ve been working on
       </Heading>
-      <Products />
+      <Products /> {/* baad me aapan change kr liye */}
       <TechStack />
     </Container>
   );
